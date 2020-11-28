@@ -3,7 +3,7 @@
 <html b:version='2' class='v2' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
   <head>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'/>
-<script src='https://ajax.googleFadapis.com/ajax/libs/jquery/1.11.0/jquery.min.js' type='text/javascript'/>   
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js' type='text/javascript'/>   
 <link href='http://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i' media='all' rel='stylesheet' type='text/css'/>
     <link href='//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'/>
  <link href='//cdn.linearicons.com/free/1.0.0/icon-font.min.css' rel='stylesheet'/>
@@ -65,7 +65,7 @@
 -----------------------------------------------
 Blogger Template Style
 Name:        Folio
-Author :     https://anjan-diyora.blogspot.com/
+Author :     http://www.soratemplates.com
 License:     Free Version
 ----------------------------------------------- */
 /* Variable definitions
@@ -643,7 +643,7 @@ color:#000;
 #header-wrapper {
 text-align: center;
 padding:0;
-background: url(https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center bottom;
+background: url(https://4.bp.blogspot.com/-UQx5MUK3DRs/W4akx3E8z4I/AAAAAAAAFig/jzyEvTZpbSQh1JfVYgtb3H8t29KIhLJEwCK4BGAYYCw/s1600/head-back.jpg) no-repeat center bottom;
     background-attachment: fixed;
     background-size: cover;
     margin-bottom: 10px;
@@ -1293,7 +1293,66 @@ font-weight:bold;
     margin: 0 0 20px;
     color: #707070;
 }
+/* ######## Testimonial Css ######################### */
+/*! Flickity v1.0.0
+http://flickity.metafizzy.co
+---------------------------------------------- */
+.flickity-enabled{position:relative}.flickity-enabled:focus{outline:0}.flickity-viewport{overflow:hidden;position:relative;height:100%}.flickity-slider{position:absolute;width:100%;height:100%}.flickity-enabled.is-draggable{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.flickity-enabled.is-draggable .flickity-viewport{cursor:move;cursor:-webkit-grab;cursor:grab}.flickity-enabled.is-draggable .flickity-viewport.is-pointer-down{cursor:-webkit-grabbing;cursor:grabbing}.flickity-prev-next-button{position:absolute;top:50%;width:44px;height:44px;border:none;border-radius:50%;background:#fff;background:hsla(0,0%,100%,.75);cursor:pointer;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}.flickity-prev-next-button:hover{background:#fff}.flickity-prev-next-button:focus{outline:0;box-shadow:0 0 0 5px #09F}.flickity-prev-next-button:active{filter:alpha(opacity=60);opacity:.6}.flickity-prev-next-button.previous{left:10px}.flickity-prev-next-button.next{right:10px}.flickity-rtl .flickity-prev-next-button.previous{left:auto;right:10px}.flickity-rtl .flickity-prev-next-button.next{right:auto;left:10px}.flickity-prev-next-button:disabled{filter:alpha(opacity=30);opacity:.3;cursor:auto}.flickity-prev-next-button svg{position:absolute;left:20%;top:20%;width:60%;height:60%}.flickity-prev-next-button .arrow{fill:#333}.flickity-prev-next-button.no-svg{color:#333;font-size:26px}.flickity-page-dots{position:absolute;width:100%;bottom:-25px;padding:0;margin:0;list-style:none;text-align:center;line-height:1}.flickity-rtl .flickity-page-dots{direction:rtl}.flickity-page-dots .dot{display:inline-block;width:10px;height:10px;margin:0 8px;background:#efefef;border-radius:50%;filter:alpha(opacity=80);opacity:.80;cursor:pointer;    padding: 0;}.flickity-page-dots .dot.is-selected{filter:alpha(opacity=100);opacity:1}
+.main-gallery {
+background: url(https://2.bp.blogspot.com/-C2ZNH3JwldA/Vupbf-HopaI/AAAAAAAADXU/xq1cJrP0LJMEylkyCr76kPNm-bxo0-7og/s1600/city-1150026_960_720.jpg) no-repeat center bottom;
+    background-attachment: fixed;
+    background-size: cover;
+position:relative;
+}
+.main-gallery:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+    background: #000;
+}
+.gallery-cell {
+  width: 100%;
+}
 
+.testimonial {
+  text-align: center;
+  max-width: 850px;
+  margin: 100px auto 130px auto;
+  padding: 0 20px;
+}
+
+.testimonial-avatar {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.testimonial-quote {
+  display: block;
+  font-size: 24px;
+  padding: 10px 0;
+line-height:1.4;
+color:#fff;
+font-style:italic;
+  
+font-weight:400;
+}
+
+.testimonial-author {
+  display: block;
+  font-weight: 700;
+  color: $maincolor;
+}
+
+.flickity-page-dots {
+  bottom: 25px;
+}
+
+.flickity-page-dots .dot.is-selected {
+  background: $maincolor;
 }
 /* ######## Section 3 Css ######################### */
 /* ######## Featured Summary Css ######################### */
@@ -3594,15 +3653,15 @@ var pagenav_next = "Next";
 <div class='scroll-head-wrap row'>
 <div class='scrollin-logo'>
   <b:section class='header' id='header' maxwidgets='1' name='Logo &amp; Title' showaddelement='no'>
-    <b:widget id='Header1' locked='true' title='Anjan Diyora (Header)' type='Header' version='1'>
+    <b:widget id='Header1' locked='true' title='ANJAN DIYORA (Header)' type='Header' version='1'>
       <b:widget-settings>
-        <b:widget-setting name='displayUrl'/>
-        <b:widget-setting name='displayHeight'>0</b:widget-setting>
+        <b:widget-setting name='displayUrl'>http://2.bp.blogspot.com/-Smm8qOlDPNg/W4ZSCkHD1rI/AAAAAAAAFiI/j_yJYU78kY4vqRpSzUm1xXeKze3PJaP2QCK4BGAYYCw/s1600/Folio.png</b:widget-setting>
+        <b:widget-setting name='displayHeight'>56</b:widget-setting>
         <b:widget-setting name='sectionWidth'>600</b:widget-setting>
-        <b:widget-setting name='useImage'>false</b:widget-setting>
+        <b:widget-setting name='useImage'>true</b:widget-setting>
         <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
-        <b:widget-setting name='imagePlacement'>BEHIND</b:widget-setting>
-        <b:widget-setting name='displayWidth'>0</b:widget-setting>
+        <b:widget-setting name='imagePlacement'>REPLACE</b:widget-setting>
+        <b:widget-setting name='displayWidth'>150</b:widget-setting>
       </b:widget-settings>
       <b:includable id='main'>
   <b:if cond='data:useImage'>
@@ -3682,6 +3741,7 @@ var pagenav_next = "Next";
 		<li><a href='#section-1'>About Me</a></li>
 <li><a href='#section-2'>Services</a></li>
 <li><a href='#main-wrapper'>Portfolio</a></li>
+<li><a href='#section-5'>Testimonial</a></li>
 <li><a href='#section-7'>Contact</a></li>
 	</ul><div class='menu-mobile2'/>
   </div></b:if></b:if></b:if>
@@ -3776,7 +3836,7 @@ Welcome
               $(function() {
                 &quot;use strict&quot;;
                 $(&quot;.header-logo-desc p&quot;).typed({
-                  strings: [&quot;Anjan Diyora&quot;, &quot;a Developer&quot; , &quot;a Programmer&quot;, &quot; a Coder&quot;], //Headlines(Change It)
+                  strings: [&quot;John Doe&quot;, &quot;a Developer&quot; , &quot; a Designer&quot;], //Headlines(Change It)
                   loop: true,
                   startDelay: 1e3,
                   backDelay: 2e3
@@ -3803,15 +3863,19 @@ Welcome
 <b:section class='top-bar-social blue' id='header social widget' maxwidgets='1' name='Top Social Widget' showaddelement='no'>
   <b:widget id='LinkList230' locked='true' title='Social Media Icons' type='LinkList' version='1'>
     <b:widget-settings>
-      <b:widget-setting name='link-3'>https://www.linkedin.com/in/anjandiyora/</b:widget-setting>
-      <b:widget-setting name='sorting'>NONE</b:widget-setting>
+      <b:widget-setting name='link-5'>#</b:widget-setting>
+      <b:widget-setting name='link-3'>#</b:widget-setting>
+      <b:widget-setting name='link-4'>#</b:widget-setting>
       <b:widget-setting name='text-1'>twitter</b:widget-setting>
-      <b:widget-setting name='link-1'>https://twitter.com/DiyoraAnjan</b:widget-setting>
       <b:widget-setting name='text-0'>facebook</b:widget-setting>
-      <b:widget-setting name='link-2'>https://www.instagram.com/diyora_anjan/</b:widget-setting>
-      <b:widget-setting name='text-3'>linkedin</b:widget-setting>
-      <b:widget-setting name='link-0'>https://www.facebook.com/anjan5005/</b:widget-setting>
-      <b:widget-setting name='text-2'>instagram</b:widget-setting>
+      <b:widget-setting name='text-3'>instagram</b:widget-setting>
+      <b:widget-setting name='text-2'>gplus</b:widget-setting>
+      <b:widget-setting name='text-5'>linkedin</b:widget-setting>
+      <b:widget-setting name='text-4'>pinterest</b:widget-setting>
+      <b:widget-setting name='sorting'>NONE</b:widget-setting>
+      <b:widget-setting name='link-1'>#</b:widget-setting>
+      <b:widget-setting name='link-2'>#</b:widget-setting>
+      <b:widget-setting name='link-0'>#</b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
             <div class='widget-content'>
@@ -3848,23 +3912,21 @@ Welcome
 <div class='fenix-head-author'>
 <div class='fenix-sub-head-auth wow fadeInUp hero-row' id='section-1' style='visibility: visible;animation-delay: 1.2s;'>
 <div class='sora-author-box'>
-<div class='sora-author-box-image'><img alt='Author Image' class='avatar avatar-60 photo' src='https://github.com/Anjan50/Test-for-Wordpress-Website/blob/main/Untitled%20design%20(18).png?raw=true'/></div>
+<div class='sora-author-box-image'><img alt='Author Image' class='avatar avatar-60 photo' src='https://1.bp.blogspot.com/-lS8BCMfild4/WaUv1I0ZzxI/AAAAAAAADvI/TRbkU8DD6qAMXTEciXxlZXakbMGB29xWQCK4BGAYYCw/s1600/team_2.jpg'/></div>
 <div class='sora-author-box-text'>
 <div class='sora-author-box-text-head'>
 <span class='hello-txt'>Hello</span>
-<h2 class='profile-title'><span>I&#39;m</span> Anjan Diyora </h2>
-<h3 class='profile-position'>Developer and Opensource Contributer</h3>
+<h2 class='profile-title'><span>I&#39;m</span> John Doe</h2>
+<h3 class='profile-position'>Developer and businessman</h3>
   </div>
 <div class='sora-author-box-text-details'>
-  <span>
+<span>
 <p>
-Now I&#39;m Second-year Computer science student,I predict future in Cloud computing field. Last semester I completed the Foundational programming, which covers C, C++, Java, Python, and HTML/CSS.
-I have Experience in hands on hand Google cloud lab which covers kubernetes, Foundational Data, ML, AI, BigQuery Tasks </p>
+Lorem Ipsum is simply dummy text of the an took a galley of type and it to make a type specimen book It has survived not only five centuries.</p>
   <br/>
 <p>
-I am belongs to ordinary family in Surat, Gujarat, India. but what the future holds for me in the next five years it&#39;s up to me.I have an entrepreneurial mindset.
+Lorem Ipsum is simply dummy text of the printing and type setting industry when an unknown printer took a galley and type setting unknown printer industry when of type and scrambled it to make a type specimen book It has survived not only five centuries.
   </p></span>
-
   </div>
 </div></div>
   </div>
@@ -3879,20 +3941,20 @@ I am belongs to ordinary family in Surat, Gujarat, India. but what the future ho
 <div class='skills'>
    <!-- skill -->
   <dl>
-    <dt>C language</dt>
+    <dt>HTML</dt>
     <dd class='skill-percent html' data-percent='90'/>
-    <dt>C++</dt>
-    <dd class='skill-percent css' data-percent='60'/>
-    <dt>Java</dt>
-    <dd class='skill-percent jquery' data-percent='80'/>
-    <dt>Python</dt>
-    <dd class='skill-percent scss' data-percent='70'/>
+    <dt>CSS</dt>
+    <dd class='skill-percent css' data-percent='85'/>
+    <dt>jQuery</dt>
+    <dd class='skill-percent jquery' data-percent='70'/>
+    <dt>SCSS</dt>
+    <dd class='skill-percent scss' data-percent='60'/>
     <dt>Javascript</dt>
     <dd class='skill-percent javascript' data-percent='50'/>
-    <dt>MySQL</dt>
-    <dd class='skill-percent php' data-percent='60'/>
- <dt>HTML/CSS</dt>
-    <dd class='skill-percent xml' data-percent='95'/>
+    <dt>PHP</dt>
+    <dd class='skill-percent php' data-percent='30'/>
+ <dt>XML</dt>
+    <dd class='skill-percent xml' data-percent='40'/>
   </dl>
    <!-- #skill -->
 </div>
@@ -3901,35 +3963,35 @@ I am belongs to ordinary family in Surat, Gujarat, India. but what the future ho
 <ul class='profile-list'>
     <li class='clearfix'>
         <strong class='list-title'>Age</strong>
-        <span class='cont'>19</span>
+        <span class='cont'>29</span>
     </li>
     <li class='clearfix'>
         <strong class='list-title'>Address</strong>
-        <span class='cont'>Krishna Arcade, Katargam, Surat, Gujarat, IN.</span>
+        <span class='cont'>24058, Belgium, Brussels, Liutte 27, BE</span>
     </li>
 <li class='clearfix'>
         <strong class='list-title'>Blog</strong>
-        <span class='cont'><a href='https://computereducator50.medium.com/'>computereducator50.medium.com </a> </span>
+        <span class='cont'>blog.yourdomain.com</span>
     </li>
     <li class='clearfix'>
         <strong class='list-title'>E-mail</strong>
-        <span class='cont'><a href='mailto:anjanjee11@gmail.com'>anjanjee11@gmail.com</a></span>
+        <span class='cont'><a href='mailto:robertsmith@company.com'>robertsmith@company.com</a></span>
     </li>
  <li class='clearfix'>
-        <strong class='list-title'>Collage </strong>
-   <span class='cont'>Parul University</span>
+        <strong class='list-title'>Site</strong>
+   <span class='cont'>http://www.yourdomain.com</span>
     </li>
     <li class='clearfix'>
         <strong class='list-title'>Phone</strong>
-        <span class='cont'><a href='tel:+91 9265027755'>+91 9265027755</a></span>
+        <span class='cont'><a href='tel:+12562548456'>+1 256 254 84 56</a></span>
     </li>
     <li class='clearfix'>
-        <strong class='list-title'>Cource</strong><span class='list-button'>B.Tech(CSE)</span>
-       
+        <strong class='list-title'>Freelance</strong>
+        <span class='cont'>till April 15, 2016</span>
     </li>
     <li class='clearfix'>
-        <strong class='list-title'><span class='list-button'>On Graduate</span></strong>
-        <span class='cont'><i class='fa fa-calendar'/>till April, 2023</span>
+        <strong class='list-title'><span class='list-button'>On Vacation</span></strong>
+        <span class='cont'><i class='fa fa-calendar'/>till March 25, 2016</span>
     </li>
 </ul>
   </div>
@@ -3943,12 +4005,11 @@ I am belongs to ordinary family in Surat, Gujarat, India. but what the future ho
   </div>
 <div style='clear: both;'/>
 <div class='skill-details-works'>
-
-  <!-- First -->
+<!-- First -->
 <div class='special-tiles wow fadeInUp' data-wow-delay='0s'>
 <div class='special-tiles-wrap'>
 <span class='special-icons'>
- <i aria-hidden='true' class='fa fa-code'/>
+ <i aria-hidden='true' class='fa fa-heart-o'/>
 </span>
 <span class='special-content'>
   <h6 class='special-heading'>Web Designing</h6>
@@ -3961,7 +4022,7 @@ I am belongs to ordinary family in Surat, Gujarat, India. but what the future ho
 <div class='special-tiles wow fadeInUp' data-wow-delay='0.2s'>
 <div class='special-tiles-wrap'>
 <span class='special-icons'>
- <i aria-hidden='true' class='fa fa-cloud'/>
+ <i aria-hidden='true' class='fa fa-birthday-cake'/>
 </span>
 <span class='special-content'>
   <h6 class='special-heading'>App Development</h6>
@@ -3988,7 +4049,7 @@ I am belongs to ordinary family in Surat, Gujarat, India. but what the future ho
 
 <div class='special-tiles-wrap'>
 <span class='special-icons'>
- <i aria-hidden='true' class='fa fa-app'/>
+ <i aria-hidden='true' class='fa fa-heart-o'/>
 </span>
 <span class='special-content'>
   <h6 class='special-heading'>Web Designing</h6>
@@ -4071,7 +4132,6 @@ I am belongs to ordinary family in Surat, Gujarat, India. but what the future ho
          <b:widget-setting name='style.linkcolor'>#c0af94</b:widget-setting>
          <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
          <b:widget-setting name='style.bgcolor'>#000000</b:widget-setting>
-         <b:widget-setting name='timestampLabel'>-</b:widget-setting>
          <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
          <b:widget-setting name='style.layout'>1x1</b:widget-setting>
          <b:widget-setting name='showLabels'>true</b:widget-setting>
@@ -5461,6 +5521,9 @@ width: 100%;
 
     <b:include name='quickedit'/>
   </b:includable>
+    <b:includable id='searchSubmit'>
+          <input class='search-action flat-button' expr:value='data:messages.search.escaped' type='submit'/>
+        </b:includable>
   </b:widget>
   <b:widget id='AdSense1' locked='false' title='' type='AdSense'>
     <b:includable id='main'>
@@ -5469,6 +5532,12 @@ width: 100%;
     <b:include name='quickedit'/>
   </div>
 </b:includable>
+    <b:includable id='defaultAdUnit'>
+          <b:comment>Clear out style (needs to be a non-empty string)</b:comment>
+          <b:with value='&quot;/* Done in css. */&quot;' var='style'>
+            <b:include name='super.defaultAdUnit'/>
+          </b:with>
+        </b:includable>
   </b:widget>
   <b:widget id='AdSense2' locked='false' title='' type='AdSense'>
     <b:includable id='main'>
@@ -5477,6 +5546,12 @@ width: 100%;
     <b:include name='quickedit'/>
   </div>
 </b:includable>
+    <b:includable id='defaultAdUnit'>
+          <b:comment>Clear out style (needs to be a non-empty string)</b:comment>
+          <b:with value='&quot;/* Done in css. */&quot;' var='style'>
+            <b:include name='super.defaultAdUnit'/>
+          </b:with>
+        </b:includable>
   </b:widget>
   <b:widget id='Attribution1' locked='false' title='' type='Attribution'>
     <b:widget-settings>
@@ -5492,7 +5567,7 @@ width: 100%;
     <b:include name='quickedit'/>
   </b:includable>
   </b:widget>
-  <b:widget id='BlogArchive1' locked='false' title='Blog Archive' type='BlogArchive'>
+  <b:widget id='BlogArchive1' locked='false' title='' type='BlogArchive'>
     <b:widget-settings>
       <b:widget-setting name='showStyle'>FLAT</b:widget-setting>
       <b:widget-setting name='yearPattern'>yyyy</b:widget-setting>
@@ -5504,30 +5579,22 @@ width: 100%;
       <b:widget-setting name='showPosts'>true</b:widget-setting>
       <b:widget-setting name='frequency'>MONTHLY</b:widget-setting>
     </b:widget-settings>
-    <b:includable id='main'>
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2><data:title/></h2>
-  </b:if>
-  <div class='widget-content'>
-  <div id='ArchiveList'>
-  <div expr:id='data:widget.instanceId + &quot;_ArchiveList&quot;'>
-    <b:include cond='data:style == &quot;HIERARCHY&quot;' data='data' name='interval'/>
-    <b:include cond='data:style == &quot;FLAT&quot;' data='data' name='flat'/>
-    <b:include cond='data:style == &quot;MENU&quot;' data='data' name='menu'/>
-  </div>
-  </div>
-  <b:include name='quickedit'/>
-  </div>
-</b:includable>
-    <b:includable id='flat' var='data'>
-  <ul class='flat'>
-    <b:loop values='data:data' var='i'>
-      <li class='archivedate'>
-        <a expr:href='data:i.url'><data:i.name/></a> (<data:i.post-count/>)
-      </li>
-    </b:loop>
-  </ul>
-</b:includable>
+    <b:includable id='main' var='this'>
+          <details class='collapsible extendable'>
+            <b:attr cond='data:view.isArchive' name='open' value='open'/>
+            <b:with value='true' var='renderAsDetails'>
+            <b:with value='data:messages.archive' var='defaultTitle'>
+              <b:include name='super.main'/>
+            </b:with>
+            </b:with>
+          </details>
+        </b:includable>
+    <b:includable id='flat'>
+          <b:include data='{                               buttonClass: &quot;pill-button&quot;,                               items: data:this.data,                               itemSet: &quot;data&quot;,                               itemsMarkup: &quot;super.flat&quot;                             }' name='extendableItems'/>
+        </b:includable>
+    <b:includable id='hierarchy'>
+          <b:include data='{                               buttonClass: &quot;pill-button&quot;,                               limit: 1,                               items: data:this.data,                               itemSet: &quot;data&quot;,                               itemsMarkup: &quot;super.hierarchy&quot;                             }' name='extendableItems'/>
+        </b:includable>
     <b:includable id='interval' var='intervalData'>
   <b:loop values='data:intervalData' var='interval'>
     <ul class='hierarchy'>
@@ -5608,49 +5675,37 @@ width: 100%;
       <b:widget-setting name='showaboutme'>true</b:widget-setting>
       <b:widget-setting name='showlocation'>false</b:widget-setting>
     </b:widget-settings>
-    <b:includable id='main'>
-    <b:if cond='data:title != &quot;&quot;'>
-      <h2><data:title/></h2>
-    </b:if>
-    <div class='widget-content'>
-    <b:if cond='data:team'> <!-- team blog profile -->
-      <ul>
-        <b:loop values='data:authors' var='i'>
-          <li><a class='profile-name-link g-profile' expr:href='data:i.userUrl' expr:style='&quot;background-image: url(&quot; + data:i.profileLogo + &quot;);&quot;'><data:i.display-name/></a></li>
-        </b:loop>
-      </ul>
-
-    <b:else/> <!-- normal blog profile -->
-
-      <b:if cond='data:photo.url != &quot;&quot;'>
-        <a expr:href='data:userUrl'><img class='profile-img' expr:alt='data:messages.myPhoto' expr:height='data:photo.height' expr:src='data:photo.url' expr:width='data:photo.width'/></a>
-      </b:if>
-
-      <dl class='profile-datablock'>
-        <dt class='profile-data'>
-          <a class='profile-name-link g-profile' expr:href='data:userUrl' expr:style='&quot;background-image: url(&quot; + data:profileLogo + &quot;);&quot;' rel='author'>
-            <data:displayname/>
+    <b:includable id='main' var='this'>
+          <div class='wrapper'>
+            <b:class cond='!data:this.team' name='solo'/>
+            <b:comment>No title for single profiles. Default to &#39;Blog authors&#39; for team.</b:comment>
+            <b:with value='data:messages.blogAuthors' var='defaultTitle'>
+              <b:include cond='data:this.team' name='widget-title'/>
+            </b:with>
+            <b:include name='content'/>
+          </div>
+        </b:includable>
+    <b:includable id='defaultProfileImage'>
+          <div class='default-avatar-wrapper'>
+            <b:include data='{ iconClass: &quot;avatar-icon&quot; }' name='defaultAvatarIcon'/>
+          </div>
+        </b:includable>
+    <b:includable id='userProfileText'>
+          <dd class='profile-textblock profile-snippet snippet-container r-snippet-container'>
+            <div class='snippet-item r-snippetized'>
+              <data:aboutme/>
+            </div>
+            <div class='snippet-fade r-snippet-fade hidden'/>
+          </dd>
+        </b:includable>
+    <b:includable id='viewProfileLink'>
+          <b:comment>Change link to &#39;visit profile&#39;</b:comment>
+          <a class='profile-link visit-profile pill-button' expr:href='data:userUrl' rel='author'>
+            <data:messages.visitProfile/>
           </a>
-          <b:if cond='data:hasgoogleprofile'>
-            <br/>
-            <div class='g-follow' data-annotation='bubble' data-height='20' expr:data-href='data:userUrl'/>
-          </b:if>
-        </dt>
-
-        <b:if cond='data:showlocation'>
-          <dd class='profile-data'><data:location/></dd>
-        </b:if>
-
-        <b:if cond='data:aboutme != &quot;&quot;'><dd class='profile-textblock'><data:aboutme/></dd></b:if>
-      </dl>
-      <a class='profile-link' expr:href='data:userUrl' rel='author'><data:viewProfileMsg/></a>
-    </b:if>
-
-     <b:include name='quickedit'/>
-    </div>
-  </b:includable>
+        </b:includable>
   </b:widget>
-  <b:widget id='FeaturedPost1' locked='false' title='' type='FeaturedPost'>
+  <b:widget cond='data:view.isHomepage' id='FeaturedPost1' locked='false' title='' type='FeaturedPost'>
     <b:widget-settings>
       <b:widget-setting name='showSnippet'>true</b:widget-setting>
       <b:widget-setting name='showPostTitle'>true</b:widget-setting>
@@ -5666,6 +5721,20 @@ width: 100%;
 
   <b:include name='quickedit'/>
 </b:includable>
+    <b:includable id='commentsLink'>
+          <a class='comment-link' expr:href='data:post.commentsUrl' expr:onclick='data:post.commentsUrlOnclick'>
+            <b:include data='{ iconClass: &quot;touch-icon&quot; }' name='commentIcon'/>
+            <span class='num_comments'>
+              <b:if cond='data:post.numberOfComments &gt; 0'>
+                <b:message name='messages.numberOfComments'>
+                  <b:param expr:value='data:post.numberOfComments' name='numComments'/>
+                </b:message>
+              <b:else/>
+                <data:messages.postAComment/>
+              </b:if>
+            </span>
+          </a>
+        </b:includable>
     <b:includable id='content'>
   <div class='post-summary'>
     <b:if cond='data:showPostTitle and data:postTitle != &quot;&quot;'>
@@ -5687,6 +5756,61 @@ width: 100%;
     }
   </style>
 </b:includable>
+    <b:includable id='headerByline'>
+          <b:include cond='data:view.isMultipleItems or data:widgets.Blog.first.headerByline.items.share' data='{ shareButtonClass: &quot;post-share-buttons-top&quot;, overridden: true }' name='maybeAddShareButtons'/>
+          <b:include name='super.headerByline'/>
+        </b:includable>
+    <b:includable id='postFooter' var='post'>
+          <div class='post-bottom'>
+            <div class='post-footer float-container'>
+              <b:include name='footerBylines'/>
+              <b:include cond='data:widget.type == &quot;Blog&quot;' data='post' name='postFooterAuthorProfile'/>
+            </div>
+            <b:if cond='data:view.isSingleItem'>
+                <b:include data='{ shareButtonClass: &quot;post-share-buttons-bottom invisible&quot;, overridden: true }' name='maybeAddShareButtons'/>
+            <b:else/>
+              <b:include data='post' name='postFooterJumpLink'/>
+            </b:if>
+          </div>
+        </b:includable>
+    <b:includable id='postFooterJumpLink'>
+          <b:comment>Ripple, and show &#39;keep reading&#39; as the default.</b:comment>
+          <div class='jump-link flat-button ripple'>
+            <a expr:href='data:post.hasJumpLink ? data:post.url fragment &quot;more&quot; : data:post.url' expr:title='data:post.title'>
+              <data:blog.jumpLinkMessage/>
+            </a>
+          </div>
+        </b:includable>
+    <b:includable id='postJumpLink'>
+          <b:comment>Overridden, and migrated to postFooter. Called as postFooterJumpLink.</b:comment>
+        </b:includable>
+    <b:includable id='postLabels'>
+          <b:comment>We don&#39;t display labels on the home page.</b:comment>
+          <b:if cond='data:view.isSingleItem and data:widget.type == &quot;Blog&quot;'>
+            <b:include name='super.postLabels'/>
+          </b:if>
+        </b:includable>
+    <b:includable id='postShareButtons' var='post'>
+          <b:comment>We call super.postShareButtons from the migrated positions.</b:comment>
+        </b:includable>
+    <b:includable id='snippetedPostByline'>
+          <b:include name='headerByline'/>
+        </b:includable>
+    <b:includable id='snippetedPostContent'>
+          <b:comment>Re-order the thumbnail before the snippet, add &#39;Keep reading&#39; link.</b:comment>
+          <b:include cond='data:this.postDisplay.showTitle' name='snippetedPostTitle'/>
+          <b:include name='headerByline'/>
+          <b:include cond='data:this.postDisplay.showFeaturedImage and data:post.featuredImage' data='post' name='snippetedPostThumbnail'/>
+          <b:include cond='data:this.postDisplay.showSnippet' data='post' name='postSnippet'/>
+          <b:include data='post' name='postFooter'/>
+        </b:includable>
+    <b:includable id='snippetedPostThumbnail'>
+          <div class='snippet-thumbnail'>
+            <b:with value='data:post.featuredImage.isYoutube                            ? resizeImage(data:post.featuredImage.youtubeMaxResDefaultUrl, 945, &quot;945:600&quot;)                            : &quot;&quot;' var='highRes'>
+              <b:include data='{                                  image: data:post.featuredImage,                                  imageSizes: [256, 512, 945, 1684],                                  imageRatio: &quot;945:600&quot;,                                  sourceSizes: &quot;(min-width: 954px) 842px, (min-width: 801px) calc(100vw - 112px), calc(100vw - 64px)&quot;,                                  enhancedSourceset: data:highRes                                }' name='responsiveImage'/>
+            </b:with>
+          </div>
+        </b:includable>
   </b:widget>
 </b:section>
     </div>
@@ -5696,7 +5820,29 @@ width: 100%;
 <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
 <b:if cond='data:blog.pageType!= &quot;item&quot;'>
 <b:if cond='data:blog.pageType != &quot;error_page&quot;'>
-
+<div class='main-gallery wow fadeInRight' id='section-5' style='visibility: visible;'>
+  <div class='gallery-cell'>
+    <div class='testimonial'>
+        <img class='testimonial-avatar' src='http://1.bp.blogspot.com/-zjRQwZusQuA/WaUu4AM9p_I/AAAAAAAADug/68l5-04iSWoVMAkpi8iQGM430fUYKAzdACK4BGAYYCw/s400/128.jpg'/>
+      <q class='testimonial-quote'>&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mauris ex, gravida ut leo eu, rhoncus porta orci. Fusce vitae rutrum nulla.&quot;</q>
+      <span class='testimonial-author'>Joe Smith, CEO of Cubix</span>
+    </div>
+  </div>
+  <div class='gallery-cell'>
+     <div class='testimonial'>
+        <img class='testimonial-avatar' src='http://4.bp.blogspot.com/-B1N0s6e1Y90/WaUvFDHMc7I/AAAAAAAADuo/5L4qayXHNiAWVAgZhTRhJ7S2VSAL-E-3QCK4BGAYYCw/s400/128%2B%25281%2529.jpg'/>
+      <q class='testimonial-quote'>&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mauris ex, gravida ut leo eu, rhoncus porta orci. Fusce vitae rutrum nulla.&quot;</q>
+      <span class='testimonial-author'>Lisa Jones, Freelance Web Developer</span>
+    </div>
+  </div>
+  <div class='gallery-cell'>
+        <div class='testimonial'>
+        <img class='testimonial-avatar' src='http://1.bp.blogspot.com/--AljITWu1is/WaUvSgSDbEI/AAAAAAAADuw/5FZ7WobSdtAVINLVQT3qpCSktRNlDA23gCK4BGAYYCw/s400/128.jpg'/>
+      <q class='testimonial-quote'>&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mauris ex, gravida ut leo eu, rhoncus porta orci. Fusce vitae rutrum nulla.&quot;</q>
+      <span class='testimonial-author'>Ryan Waltz, Front-End Developer</span>
+    </div>
+  </div>
+</div>
 <div style='clear:both'/>
 <div class='tysum-wrapper wow fadeInLeftBig'>
 
@@ -5772,9 +5918,9 @@ width: 100%;
 <div class='map-me wow fadeInRight' data-wow-delay='0s' style='visibility: visible;'>
  <div class='contact-other'>
 <ul class='con-list'>
-  <li><i class='lnr lnr-phone'/><span class='con-list-head'>Phone</span><span>+91 9265027755</span></li>
-  <li><i class='lnr lnr-map'/><span class='con-list-head'>Address</span><span>Surat,Gujarat,INDIA.</span></li>
-  <li><i class='lnr lnr-envelope'/><span class='con-list-head'>Email</span><span><a href='mailto:anjanjee11@gmail.com'/>anjanjee11@gmail.com</span></li>
+  <li><i class='lnr lnr-phone'/><span class='con-list-head'>Phone</span><span>+610-401-6021, +610-401-6022</span></li>
+  <li><i class='lnr lnr-map'/><span class='con-list-head'>Address</span><span>3066 Stone Lane, Wayne, Pennsylvania.</span></li>
+  <li><i class='lnr lnr-envelope'/><span class='con-list-head'>Email</span><span>soratemplate@gmail.com</span></li>
 </ul>
 </div>
   </div>
@@ -5823,21 +5969,23 @@ width: 100%;
   </b:section>
 
  <div class='jugas_footer_copyright'>
-                       Created By <a href='https://anjan-diyora.blogspot.com/' id='mycontent' rel='dofollow' title='Anjan Diyora'> Anjan Diyora </a> | Distributed By <a href='https://anjan-diyora.blogspot.com/' rel='dofollow' style='color:#ffbd2f;' target='_blank'>AD pro</a>
+                       Created By <a href='http://soratemplates.com/' id='mycontent' rel='dofollow' title='Free Blogger Templates'>SoraTemplates</a> | Distributed By <a href='https://gooyaabitemplates.com/' rel='dofollow' style='color:#ffbd2f;' target='_blank'>Gooyaabi Templates</a>
                     </div>
 
  <b:section class='bottom-bar-social blue' id='Footer social widget' maxwidgets='1' name='Footer Social Widget' showaddelement='no'>
    <b:widget id='LinkList236' locked='true' title='Social Media Icons' type='LinkList' version='1'>
      <b:widget-settings>
-       <b:widget-setting name='link-3'>https://www.instagram.com/diyora_anjan/</b:widget-setting>
+       <b:widget-setting name='link-3'>#</b:widget-setting>
        <b:widget-setting name='sorting'>NONE</b:widget-setting>
-       <b:widget-setting name='text-1'>facebook</b:widget-setting>
-       <b:widget-setting name='link-1'>https://www.facebook.com/anjan5005</b:widget-setting>
-       <b:widget-setting name='text-0'>linkedin</b:widget-setting>
-       <b:widget-setting name='link-2'>https://twitter.com/DiyoraAnjan</b:widget-setting>
-       <b:widget-setting name='text-3'>instagram</b:widget-setting>
-       <b:widget-setting name='link-0'>https://www.linkedin.com/in/anjandiyora/</b:widget-setting>
-       <b:widget-setting name='text-2'>twitter</b:widget-setting>
+       <b:widget-setting name='link-4'>#</b:widget-setting>
+       <b:widget-setting name='text-1'>twitter</b:widget-setting>
+       <b:widget-setting name='link-1'>#</b:widget-setting>
+       <b:widget-setting name='text-0'>facebook</b:widget-setting>
+       <b:widget-setting name='link-2'>#</b:widget-setting>
+       <b:widget-setting name='text-3'>bloglovin</b:widget-setting>
+       <b:widget-setting name='link-0'>#</b:widget-setting>
+       <b:widget-setting name='text-2'>gplus</b:widget-setting>
+       <b:widget-setting name='text-4'>instagram</b:widget-setting>
      </b:widget-settings>
      <b:includable id='main'>
             <div class='widget-content'>
